@@ -13,11 +13,11 @@
 #define DHTPIN 2     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 
-const char* ssid       = "University Park";
-const char* password   = "aggielife";
+const char* ssid       = ".................";
+const char* password   = ".................";
 const char* host       = "data.sparkfun.com";
-const char* publicKey  = "OGq68wKlv0SQpEnYAZ3Y";
-const char* privateKey = "8bVzY2mGlxcDJ2bzyVKz";
+const char* publicKey  = ".................";
+const char* privateKey = ".................";
 
 DHT dht(DHTPIN, DHTTYPE, 30); // 30 is for cpu clock of ESP8266 80Mhz
 
